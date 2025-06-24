@@ -12,7 +12,7 @@ interface MemberData {
   timestamp: number;
 }
 
-const cacheKey = 'overextendedMembers';
+const cacheKey = 'Eldron-XMembers';
 const cacheExpiry = 24 * 60 * 60 * 1000;
 
 const sponsor = {
@@ -39,7 +39,7 @@ async function FetchMembers() {
   const headers: Record<string, string> = {};
   if (members.etag) headers['If-None-Match'] = members.etag;
 
-  const response = await fetch(`https://api.github.com/orgs/overextended/members`, { headers });
+  const response = await fetch(`https://api.github.com/orgs/Eldron-X/members`, { headers });
 
   if (response.status === 304) return members;
 

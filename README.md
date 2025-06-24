@@ -1,4 +1,4 @@
-# Overextended Resources Documentation
+# Eldron-X Resources Documentation
 
 ## Local Development
 

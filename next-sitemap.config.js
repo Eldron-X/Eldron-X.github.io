@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://overextended.dev/',
+  siteUrl: 'https://Eldron-X.dev/',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',
