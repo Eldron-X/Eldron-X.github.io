@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://Eldron-X.dev/
+
+# Sitemaps
+Sitemap: https://Eldron-X.dev/sitemap.xml
